@@ -1,4 +1,3 @@
-
 # 🧬 Cancer Sleuth: Unraveling Colon Cancer with AI 🕵️‍♂️
 
 Welcome to **Cancer Sleuth**, where cutting-edge Artificial Intelligence meets medical science to tackle one of the most challenging diseases of our time: colon cancer. This project is a deep dive into the application of machine learning models to predict colon cancer presence from genetic information. Using a variety of algorithms, from Decision Trees to K-Nearest Neighbors, we navigate through complex data, uncover patterns, and strive for accurate predictions.
@@ -7,7 +6,7 @@ Welcome to **Cancer Sleuth**, where cutting-edge Artificial Intelligence meets m
 
 Colon cancer, a leading cause of cancer-related deaths worldwide, is notoriously difficult to detect in its early stages. **Cancer Sleuth** aims to change the narrative by leveraging the power of machine learning. Our mission? To provide researchers and healthcare professionals with tools that can predict colon cancer more efficiently and accurately.
 
-This repository showcases the journey of applying different machine learning techniques on colon cancer datasets, exploring how each model performs and interacts with the genetic data at our disposal.
+This repository showcases the journey of applying different machine learning techniques on colon cancer datasets, exploring how each model performs and interacts with the genetic data at our disposal. Everyone does this kind of analysis, but I wanted others to use this model so they can utilize the best one to test on other datasets.
 
 ## Datasets 📊
 
@@ -24,8 +23,8 @@ Please note: These links are provided for educational and research purposes. Ens
 
 In our quest, we delve into several models, each offering a unique perspective on the data:
 
-- **Decision Tree Classifier**: A fundamental yet powerful model that makes decisions based on the data's attributes.
-- **K-Nearest Neighbors (KNN)**: This model predicts the classification of a sample based on the majority vote of its neighbors.
+- **Decision Tree Classifier**: A fundamental yet powerful model that makes decisions based on the data's attributes. The implementation includes parameter tuning using cross-validation to achieve the best possible results.
+- **K-Nearest Neighbors (KNN)**: This model predicts the classification of a sample based on the majority vote of its neighbors. Various distance metrics are evaluated to determine the most effective combination for the data.
 - **Support Vector Machines (SVM)**: A robust algorithm that finds the hyperplane which best separates the data into classes.
 - **Naive Bayes Classifier**: A probabilistic model that applies Bayes' theorem with the assumption of independence between the features.
 
@@ -46,3 +45,4 @@ This project is open-source and available under the MIT License. See the LICENSE
 ## Acknowledgments 🙏
 
 A heartfelt thank you to the researchers, patients, and communities who have made these datasets available for study. Together, we're making strides towards a future where colon cancer can be detected early and treated more effectively.
+
